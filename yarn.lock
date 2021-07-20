@@ -978,10 +978,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@plug-checkout/core@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@plug-checkout/core/-/core-0.0.3.tgz#457a985a7831e5c1a6b9cbaed55dfa04d0192870"
-  integrity sha512-vKKvSXXDQtiG3oKYms0lSpwvRNtoOKjjAaolfq/wOP3KNYdI/J0f4ABDDtTMxYla/AZbNCzA9aXGuL9AAfb8vw==
+"@plug-checkout/core@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@plug-checkout/core/-/core-0.0.4.tgz#ab0121323a8c981647539921263db6ae66429b47"
+  integrity sha512-IYQ7pG1AJfN+PCmwxCoPQSQjW4zWtA2ZmTEn+KMdxuesvMlFhO+r/P45rJZ8ODYJrgrvivJa/3s7+EdeaN/toQ==
   dependencies:
     axios "^0.21.1"
     inputmask "^5.0.6"

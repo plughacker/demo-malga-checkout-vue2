@@ -1,13 +1,32 @@
 <template>
   <div id="app">
     <main>
-      <plug-checkout></plug-checkout>
+      <plug-checkout
+        :publicKey.prop="YOUR_PUBLIC_KEY"
+        :clientId.prop="YOUR_CLIENT_ID"
+        :merchantId.prop="YOUR_MERCHANT_ID"
+        :statementDescriptor.prop="'#1 Demonstration Plug Checkout'"
+        :amount.prop="100"
+        :installmentsConfig.prop="{ show: true, quantity: 2 }"
+        :customFormStyleClasses.prop="{ submitButton: 'custom-submit-button' }"
+        @paymentSuccess="handlePaymentSuccess"
+        @paymentFailed="handlePaymentFailed"
+      ></plug-checkout>
     </main>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    handlePaymentSuccess(event) {
+      console.log(event.detail.data);
+    },
+    handlePaymentFailed(event) {
+      console.log(event.detail.error);
+    },
+  },
+};
 </script>
 
 <style>
