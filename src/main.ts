@@ -7,7 +7,7 @@ import {
 
 Vue.config.productionTip = false;
 
-Vue.config.ignoredElements = [/plug-\w*/, /checkout-\w*/];
+Vue.config.ignoredElements = [/plug-\w*/];
 
 applyPolyfills().then(() => {
   defineCustomElements();
