@@ -985,10 +985,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@plug-checkout/core@^1.0.3":
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/@plug-checkout/core/-/core-1.0.3.tgz#477a3d433304400e228aef46684932ab7080cae5"
-  integrity sha512-sxl5t/k9biGuX+1As/9b8LMIpmOxa3tY3B3NXkNtYUTdLwnJsC8gcCK+63ahIOK1nOguR+xKoO+4yHgxwaPn3g==
+"@plug-checkout/core@latest":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@plug-checkout/core/-/core-1.0.4.tgz#856732d7416ed911d0f395d2a9eb416c67c514df"
+  integrity sha512-pgpQFZj2RlgKSU+Q1t2RhvMLJleP1op53CHd0dMZkgEb0kil/OiuSUqzcC1DWCZ1fwEKbZIUpUOWIsCC4GhupQ==
   dependencies:
     axios "^0.21.1"
     brazilian-values "^0.10.1"
