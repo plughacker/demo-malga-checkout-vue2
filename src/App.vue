@@ -15,6 +15,7 @@
               quantity: 1,
               show: true,
             },
+            checkedSaveCard: false,
             showCreditCard: true,
           },
           boleto: {
