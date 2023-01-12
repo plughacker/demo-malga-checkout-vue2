@@ -3,11 +3,11 @@ import App from "./App.vue";
 import {
   applyPolyfills,
   defineCustomElements,
-} from "@plug-checkout/core/loader";
+} from "@malga-checkout/core/loader";
 
 Vue.config.productionTip = false;
 
-Vue.config.ignoredElements = [/plug-\w*/];
+Vue.config.ignoredElements = [/malga-\w*/];
 
 applyPolyfills().then(() => {
   defineCustomElements();
